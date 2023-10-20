@@ -33,7 +33,7 @@ body {
     font-weight: 600;
 }
 
-.logo::before{
+.logo::before {
     content: '';
     position: absolute;
     top: 0;
@@ -79,7 +79,7 @@ body {
     line-height: 1.2;
 }
 
-.home-content h1::before{
+.home-content h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -98,7 +98,7 @@ body {
     color: #0070f0;
 }
 
-.home-content h3::before{
+.home-content h3::before {
     content: '';
     position: absolute;
     top: 0;
@@ -110,14 +110,13 @@ body {
     animation-delay: .1.3s;
 }
 
-
 .home-content p {
     position: relative;
     font-size: 15px;
     margin: 20px 0 40px;
 }
 
-.home-content p::before{
+.home-content p::before {
     content: '';
     position: absolute;
     top: 0;
@@ -129,7 +128,6 @@ body {
     animation-delay: .1.6s;
 }
 
-
 .home-content .btn-box {
     position: relative;
     display: flex;
@@ -138,7 +136,7 @@ body {
     height: 50px;
 }
 
-.home-content .btn-box::before{
+.home-content .btn-box::before {
     content: '';
     position: absolute;
     top: 0;
@@ -156,7 +154,7 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width:  150px;
+    width: 150px;
     height: 100%;
     background: #00abf0;
     border: 2px solid #00abf0;
@@ -264,8 +262,7 @@ body {
     width: 100%;
     
 }
-
-/* KEYFRAMES ANIMACION */ 
+/* KEYFRAMES ANIMACION */
 @keyframes showRight {
     100% {
         width: 0;
