@@ -6,14 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio HTML CSS</title>
   <link rel="stylesheet" href="../css/styles.css" />
+
+  <!--box de iconos-->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
 
 <body>
+
+  <!--header-->
   <header class="header">
     <a href="#" class="logo">Javier.</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
     <nav class="navbar">
-      <a href="#home">Home</a>
+      <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#skills">Skills</a>
@@ -21,26 +28,32 @@
     </nav>
   </header>
 
-  <section class="home">
+  <section class="home" id="home">
     <div class="home-content">
-      <h1>Hola, Mi nombre es Javier Bernal Acosta</h1>
-      <h3>Desarrollador fronted developer oh Full stack</h3>
+      <h1>Hola, Mi nombre es <span>Javier Bernal Acosta</span></h1>
+      <div class="text-animate">
+      <h3>Desarrollador Front-End</h3>
+      </div>
+
       <p>
         Soy un apasionado desarrollador de aplicaciones web, siempre en busca
         de aprender más acerca del desarrollo web. Tengo habilidades en HTML,
         CSS, JavaScript, Bootstrap, WordPress, React.js, Adobe Illustrator y
         Shopify.
       </p>
+
       <div class="btn-box">
-        <a href="#contratame">Contratame</a>
-        <a href="#hablemos">Hablemos</a>
+        <a href="#" class="btn">Contratame</a>
+        <a href="#" class="btn">Hablemos</a>
       </div>
     </div>
+
       <div class="home-sci">
         <a href="#"><i class="bx bxl-gmail"></i></a>
         <a href="#"><i class="bx bxl-github"></i></a>
         <a href="#"><i class="bx bxl-linkedin-square"></i></a>
       </div>
+      
   </section>
 
   <!--seccion de about-->
@@ -52,13 +65,14 @@
       <span class="circle-spin"></span>
     </div>
 
-    <div class="about-content"></div>
+    <div class="about-content">
     <h3>Fronted developer!</h3>
-    <p>Mi objetivo profesional es ampliar mi conocimiento como Frontend Developer y trabajar
-       en proyectos que me permitan aprender y adquirir nuevas habilidades.
-        Me encanta mantenerme actualizado en las últimas tendencias y tecnologías
-         en el campo del desarrollo web. Si buscas a alguien que pueda aportar creatividad y atención
-          al detalle a tu equipo de desarrollo, no dudes en contactarme.</p>
+    <p> Soy Javier, un apasionado desarrollador Frontend con un deseo insaciable de aprender y crecer en el mundo del desarrollo web.
+     Mi objetivo profesional es ampliar mis conocimientos y habilidades, y trabajar en proyectos desafiantes que me permitan hacer precisamente eso.
+    Desde que comencé mi viaje en el desarrollo web, he estado inmerso en el emocionante mundo de la creación de experiencias digitales atractivas y funcionales.
+    Lo que más me apasiona es mantenerme al día con las últimas tendencias y tecnologías que continúan transformando la forma en que interactuamos en línea.
+    Mi enfoque es claro: aprovechar mi experiencia y creatividad para diseñar y desarrollar soluciones de alta calidad que sean tanto hermosas como funcionales.
+    Creo firmemente que la atención al detalle es la clave para crear experiencias de usuario excepcionales..</p>
 
           <div class="btn-box btns">
             <a href="#" class="btn">Read More</a>
